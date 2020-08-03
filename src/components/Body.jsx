@@ -1,5 +1,6 @@
 import React from 'react';
 import './Body.scss';
+import Card from './Card';
 
 const Body = () => {
     return (
@@ -7,7 +8,8 @@ const Body = () => {
             <div className="summary-container">
                 <div>
                     <h1>Start Your Journey</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                         sed do eiusmod tempor incididunt ut labore et dolore magna 
                         aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
                         ullamco laboris nisi ut aliquip ex ea commodo consequat
@@ -15,7 +17,7 @@ const Body = () => {
                 </div>
             </div>
             <div className="card-container">
-                <h1>card container</h1>
+                <Card></Card>
             </div>
         </div>
     )
