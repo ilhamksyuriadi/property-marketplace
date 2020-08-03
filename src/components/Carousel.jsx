@@ -7,6 +7,7 @@ import KamarTidur from '../assets/icons/kamar-tidur.svg';
 import KamarMandi from '../assets/icons/kamar-mandi.svg';
 import LuasBangunan from '../assets/icons/luas-bangunan.svg';
 import LuasTanah from '../assets/icons/luas-tanah.svg';
+import Detail from './Detail';
 
 const leftArrowClicked = (event) => {
     event.preventDefault()
@@ -60,7 +61,8 @@ const Carousel = () => {
                             <p>65m2</p>
                         </span>
                     </div>
-                    <div className="see-detail"></div>
+                    {/* <div className="see-detail"></div> */}
+                    <Detail></Detail>
                 </div>
             </div>
             <div className="nav-container">
