@@ -1,0 +1,152 @@
+.carousel{
+    
+    width: 100%;
+    height: 95%;
+    // background: rgba(245, 245, 220, 0.37);
+    display: flex;
+
+    .nav-container{
+
+        width: 12%;
+        // background: rgba(0, 0, 0, 0.247);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        a {
+
+            text-decoration: none;
+            background: #e7e7e7;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+
+        }
+
+    }
+
+    .viewport{
+
+        width: 76%;
+        // background: rgba(245, 245, 220, 0.267);
+        display: flex;
+
+        .card{
+
+            width: 100%;
+            background: #ffffff;
+            border-radius: 9px;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        
+            .main-img{
+
+                width: 100%;
+                height: 250px;
+                border-radius: 15px 15px 0px 0px;
+                object-fit: cover;
+
+            }
+
+            .tags{
+
+                width: 100%;
+                height: 40px;
+                // background: rgba(0, 128, 0, 0.322);
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .tag{
+
+                    display: flex;
+                    width: 35%;
+                    justify-content: space-between;
+                    font-family: 'AvenirNext-DemiBold';
+                    // background: red;
+
+                    .dijual{
+                        background: #e2e2e2;
+                        color: rgb(65, 65, 65);
+                        padding: 4px 12px;
+                        border-radius: 5px;
+                    }
+
+                    .nego{
+                        background: #14a707;
+                        color: #f3f3f3;
+                        padding: 4px 12px;
+                        border-radius: 20px;
+                    }
+
+                }
+
+                .love-icon{
+                    width: 25px;
+                    height: 25px;
+                    border-radius: 0;
+                }
+
+            }
+
+            .price{
+
+                width: 100%;
+                height: 40px;
+                // background: greenyellow;
+                display: flex;
+                align-items: center;
+
+                .harga{
+                    font-family: 'AvenirNext-Bold';
+                    color: rgb(65, 65, 65);
+                    font-size: 25px;
+                }
+
+                .cicilan{
+                    font-family: 'AvenirNext-Regular';
+                    color: rgb(65, 65, 65);
+                    font-size: 16px;
+                    margin-left: 10px;
+                }
+
+            }
+
+            .details{
+
+                width: 100%;
+                height: 40px;
+                // background: honeydew;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                span{
+                    display: flex;
+                    p{
+                        font-family: 'AvenirNext-DemiBold';
+                        font-size: 14px;
+                        margin-left: 3px;
+                        color: rgb(65, 65, 65);
+                    }
+                }
+
+            }
+
+            .see-detail{
+                
+                width: 100%;
+                height: 50px;
+                background: khaki;
+
+            }
+
+        }
+
+    }
+}

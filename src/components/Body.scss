@@ -29,8 +29,11 @@
 
     }
 
-    .card-container{
-        background: rgba(0, 0, 255, 0.342);
+    .carousel-container{
+        // background: rgba(0, 0, 255, 0.342);
         width: 45%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }

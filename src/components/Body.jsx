@@ -1,6 +1,6 @@
 import React from 'react';
 import './Body.scss';
-import Card from './Card';
+import Carousel from './Carousel';
 
 const Body = () => {
     return (
@@ -16,8 +16,8 @@ const Body = () => {
                     </p>
                 </div>
             </div>
-            <div className="card-container">
-                <Card></Card>
+            <div className="carousel-container">
+                <Carousel></Carousel>
             </div>
         </div>
     )
