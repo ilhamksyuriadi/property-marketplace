@@ -1,10 +1,11 @@
 import React from 'react';
 import './Main.scss';
+import Header from '../components/Header';
 
 const Main = () => {
     return (
         <div className="main-container">
-            {/* <h1>test</h1> */}
+            <Header></Header>
         </div>
     )
 }
