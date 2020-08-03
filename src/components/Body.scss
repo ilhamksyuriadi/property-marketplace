@@ -1,0 +1,36 @@
+.body-container{
+
+    display: flex;
+    max-width: 100%;
+    height: 700px;
+    // background: rgba(255, 0, 0, 0.322);
+
+    .summary-container{
+
+        // background: rgba(0, 128, 0, 0.342);
+        width: 55%;
+        color: #ffffff;
+        display: flex;
+        justify-content: center;
+        padding-top: 90px;
+
+        div{
+            // background: rgba(255, 0, 0, 0.377);
+            width: 80%;
+                h1{
+                    font-family: 'AvenirNext-Bold';
+                    font-size: 60px;
+                }
+                p{
+                    font-family: 'AvenirNext-Regular';
+                    font-size: 15px;
+                }
+        }
+
+    }
+
+    .card-container{
+        background: rgba(0, 0, 255, 0.342);
+        width: 45%;
+    }
+}
