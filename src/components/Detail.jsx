@@ -9,7 +9,7 @@ import Map from '../assets/icons/map.png'
 
 const Detail = () => {
     const [state, setState] = useState({
-        show: true,
+        show: false,
         showMap: false
     })
 
