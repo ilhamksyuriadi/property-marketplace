@@ -138,14 +138,116 @@
 
             }
 
-            // .see-detail{
-                
-            //     width: 100%;
-            //     height: 50px;
-            //     background: khaki;
+        }
 
-            // }
+        @media (max-width: 768px) {
+            .card{
 
+                width: 100%;
+                background: #ffffff;
+                border-radius: 9px;
+                padding: 10px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            
+                .main-img{
+    
+                    width: 100%;
+                    height: 180px;
+                    border-radius: 15px 15px 0px 0px;
+                    object-fit: cover;
+    
+                }
+    
+                .tags{
+    
+                    width: 100%;
+                    height: 20px;
+                    // background: rgba(0, 128, 0, 0.322);
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+    
+                    .tag{
+    
+                        display: flex;
+                        width: 35%;
+                        justify-content: space-between;
+                        font-family: 'AvenirNext-DemiBold';
+                        // background: red;
+    
+                        .dijual{
+                            background: #E9EEF2;
+                            color: rgb(65, 65, 65);
+                            padding: 4px 6px;
+                            border-radius: 5px;
+                            font-size: 10px;
+                        }
+    
+                        .nego{
+                            background: #4CB97F;
+                            color: #f3f3f3;
+                            padding: 4px 6px;
+                            border-radius: 20px;
+                            font-size: 10px;
+                        }
+    
+                    }
+    
+                    .love-icon{
+                        width: 20px;
+                        height: 20px;
+                        border-radius: 0;
+                    }
+    
+                }
+    
+                .price{
+    
+                    width: 100%;
+                    height: 40px;
+                    // background: greenyellow;
+                    display: flex;
+                    align-items: center;
+    
+                    .harga{
+                        font-family: 'AvenirNext-Bold';
+                        color: rgb(65, 65, 65);
+                        font-size: 12px;
+                    }
+    
+                    .cicilan{
+                        font-family: 'AvenirNext-Regular';
+                        color: rgb(65, 65, 65);
+                        font-size: 11px;
+                        margin-left: 10px;
+                    }
+    
+                }
+    
+                .details{
+    
+                    width: 100%;
+                    height: 35px;
+                    // background: honeydew;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+    
+                    span{
+                        display: flex;
+                        p{
+                            font-family: 'AvenirNext-DemiBold';
+                            font-size: 10px;
+                            margin-left: 3px;
+                            color: rgb(65, 65, 65);
+                        }
+                    }
+    
+                }
+    
+            }
         }
 
     }
