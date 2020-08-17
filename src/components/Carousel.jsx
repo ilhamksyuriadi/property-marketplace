@@ -1,7 +1,7 @@
 import React from 'react';
 import './Carousel.scss';
-import ArrowLeft from '../assets/icons/arrow-left.svg';
-import ArrowRight from '../assets/icons/arrow-right.svg';
+// import ArrowLeft from '../assets/icons/arrow-left.svg';
+// import ArrowRight from '../assets/icons/arrow-right.svg';
 import Love from '../assets/icons/love.svg';
 import KamarTidur from '../assets/icons/kamar-tidur.svg';
 import KamarMandi from '../assets/icons/kamar-mandi.svg';
@@ -9,15 +9,15 @@ import LuasBangunan from '../assets/icons/luas-bangunan.svg';
 import LuasTanah from '../assets/icons/luas-tanah.svg';
 import Detail from './Detail';
 
-const leftArrowClicked = (event) => {
-    event.preventDefault()
-    console.log('left clicked')
-}
+// const leftArrowClicked = (event) => {
+//     event.preventDefault()
+//     console.log('left clicked')
+// }
 
-const rightArrowClicked = (event) => {
-    event.preventDefault()
-    console.log('right clicked')
-}
+// const rightArrowClicked = (event) => {
+//     event.preventDefault()
+//     console.log('right clicked')
+// }
 
 const Carousel = () => {
     return (
