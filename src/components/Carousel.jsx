@@ -23,9 +23,9 @@ const Carousel = () => {
     return (
         <section className="carousel">
             <div className="nav-container">
-                <a href="blank" onClick={leftArrowClicked} className="btn-left">
+                {/* <a href="blank" onClick={leftArrowClicked} className="btn-left">
                     <img src={ArrowRight} alt=""/>
-                </a>
+                </a> */}
             </div>
             <div className="viewport">
                 <div className="card">
@@ -66,9 +66,9 @@ const Carousel = () => {
                 </div>
             </div>
             <div className="nav-container">
-                <a href="blank" onClick={rightArrowClicked} className="btn-right">
+                {/* <a href="blank" onClick={rightArrowClicked} className="btn-right">
                     <img src={ArrowLeft} alt=""/>
-                </a>
+                </a> */}
             </div>
         </section>
     )
